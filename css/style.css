@@ -1,0 +1,47 @@
+table {
+    border: 5px black;
+    border-style: double;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+td {
+    border: 2px black;
+    border-style: solid;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+.maleBelow {
+    background-color: grey;
+    
+}
+
+.maleAbove {
+    background-color: black;
+    color: white;
+}
+
+.femaleBelow {
+    background-color: red;
+}
+
+.femaleAbove {
+    background-color: pink;
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(../images/sadpepe.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    color: black;
+    font-size: medium;
+}
