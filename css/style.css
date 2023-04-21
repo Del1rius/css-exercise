@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
 table {
     border: 5px black;
     border-style: double;
@@ -49,11 +53,46 @@ li {
 form {
     text-align: center;
     color: crimson;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
+button:hover {
+    font-size: 25px;
+    opacity: 0.3;
+}
 button {
-    height: 50px;
-    width: 50px;
+    border: 2px solid blueviolet;
+    height: 30px;   
+    width: 50%;
     color: crimson;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+    border: 2px solid blueviolet;
+    display: block;
+    margin: auto;
+    height: 20px;
+    width: 50%;
+}
+
+textarea {
+    border: 2px solid blueviolet;
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50%;
+
+}
+.border {
+    border: 2px blue;
+    border-style: double;
+}
+
+footer img{
+    height: 30px;
+    width: 30px;
+    margin: auto;
 }
